@@ -1,10 +1,10 @@
-import React from 'react';
-import { render } from 'react-dom';
-import TodoList from './TodoList.js';
-import TodoStore from './TodoStore';
+import React from "react";
+import { render } from "react-dom";
+import TodoList from "./TodoList.js";
+import TodoStore from "./TodoStore";
 
 const styles = {
-  fontFamily: 'sans-serif'
+  fontFamily: "sans-serif"
 };
 
 const App = () => (
@@ -13,4 +13,4 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById("root"));
